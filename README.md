@@ -1,9 +1,8 @@
 # Text-Analysis-On-Websites
-Data Extraction and Text Analysis
-1	Objective
+
 The objective of this project is to extract textual data articles from the given URL and perform text analysis to compute variables that are explained below. 
-2	Output DStructure
-Output Variables: 
+
+Output Data Structure: 
 1.	All input variables in “Input.xlsx”
 2.	POSITIVE SCORE
 3.	NEGATIVE SCORE
