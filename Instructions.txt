@@ -1,0 +1,21 @@
+Customized files:
+data = Includes all pre available data 
+execute.py - performs all tasks as Web Crawling and Analysis
+Analysis.py - Constitutes the process of txt analysis and output Generation
+Output Data.xlxs = Required analysis of the input.xlxs data
+
+Textanalysis\
+txtgen.py - generates text files of the each crawled website
+txt_files - includes all text files of the each crawled website
+
+spiders\
+content.py - customized scrapy spider file to crawl webistes
+content.csv - cummulative output of content.py 
+
+
+TO PERFORM ANALYSIS:	
+1.Updates the list of links to be crawled in data\input.xlxs
+2.Delete and clear Output Data.xlsx,Textanalysis\txt_file and Textanalysis\spider\content.csv(If Previously Executed)
+3.use command promt and run "execute.py"
+4.Analysis inference can be view in "Output Data.xlsx" file
+
